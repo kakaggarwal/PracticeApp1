@@ -4,9 +4,11 @@
 </p>
 
 <ul>
-  <li *ngFor="let goal of goals">
-    {{ goal }}
-  </li>
+  @for (goal of goals; track goal) {
+    <li>
+      {{ goal }}
+    </li>
+  }
 </ul>
 
 <p>
