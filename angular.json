@@ -138,5 +138,8 @@
       }
     }
   },
-  "defaultProject": "PracticeApp1"
+  "defaultProject": "PracticeApp1",
+  "cli": {
+    "analytics": false
+  }
 }
